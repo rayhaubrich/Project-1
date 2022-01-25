@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 320px;
+    border-width: 0.5px;
+    border-color: rgb(202, 202, 202);
+    border-style: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    hyphens: auto;
+    text-align: justify;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    background-color: rgba(0, 100, 0, 0.829);
+    box-shadow: 20px 20px 20px 5px;
+    border-radius: 20px 40px;
+}
+
+.box1{
+    font-size: 15px;
+    margin-top: 14px;
+    margin-left: 9px;
+    margin-bottom: 16px;
+    align-self: flex-start;
+}
+.box2{
+    width: 300px;
+    height: 200px;
+    border-width: 0.5px;
+    border-color: rgb(202, 202, 202);
+    border-style: solid;
+    margin-bottom: 10px;
+    border-radius: 20px;  
+}
+
+.box3{
+    width: 300px;
+    border-width: 0.5px;
+    border-color: rgb(202, 202, 202);
+    border-style: solid;  
+    line-height: 150%;
+    margin-bottom: 10px;
+    background-color: rgba(165, 42, 42, 0.63);
+    border-radius: 20px;
+}
+
+.funfact{
+    font-style: italic;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    margin-right: 1px;
+}
+
+.list{
+    list-style-type: none;
+    padding: 10px;
+    margin-bottom: -20px;
+    margin-right: 1px;
+}
+
+.list li span{
+    font-weight: bolder;
+}
+
+.description{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 1px;
+}
